@@ -1,0 +1,19 @@
+
+
+@mixin transition($duration:0.5s)  {
+  -o-transition: all $duration;
+  -moz-transition: all $duration;
+  -webkit-transition: all $duration;
+  transition: all $duration;
+}
+
+
+@font-face {
+  font-family: 'Cuprum';
+  src: local('Cuprum'), local('Cuprum-Regular'), url('inc/fonts/cuprum.woff2') format('woff2'), url('fonts/cuprum.woff') format('woff'), url('inc/fonts/cuprum.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+

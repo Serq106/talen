@@ -1,0 +1,221 @@
+.main{
+
+  .btn {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+
+  .btn:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .container-wrapper{
+    width: 1150px;
+    margin: 0 auto;
+    position: relative;
+    @media all and (max-width: 1139px){
+      width: 100%;
+    }
+  }
+
+  .about-company{
+    .title{
+      font-size: 36px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      padding: 76px 0px 44px 0px;
+    }
+    .about-text{
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin: 0 auto;
+      max-width: 780px;
+      font-size: 16px;
+      text-align: center;
+      .text{
+        padding-bottom: 25px;
+      }
+    }
+    .wrapper-btn{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 60px;
+      .btn{
+        display: flex;
+        justify-content: center;
+        width: 160px;
+        height: 40px;
+        align-items: center;
+        background-image: -webkit-linear-gradient( 90deg, rgb(0,110,67) 0%, rgb(0,143,62) 100%);
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+  }
+  .calk{
+    background: url(/inc/img/fon-calk.jpg) 50% no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .title{
+      display: flex;
+      justify-content: center;
+      padding: 50px 0px 30px 0px;
+      .title-content{
+        font-size: 36px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+      }
+    }
+    .wrapper-calk{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+      @media all and (max-width: 1050px){
+        flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .text{
+          padding: 0px 10px 0px 10px;
+        }
+      }
+      .form-control{
+        width: 300px;
+        height: 40px;
+        border: 1px solid #fff;
+        font-size: 16px;
+        padding: 10px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(/inc/img/row.png) no-repeat 95% hsla(60,34%,89%,.7);
+      }
+      .text{
+        font-size: 16px;
+        color: #ffffff;
+        align-items: center;
+        display: flex;
+        padding: 0px 30px;
+        @media all and (max-width: 1050px){
+          padding: 10px 0px;
+        }
+        sup{
+          font-size: 10px;
+        }
+      }
+       input{
+        width: 100px;
+        height: 40px;
+        background: rgba(236, 236, 216, 0.7);
+        border: 1px solid #ffffff;
+        font-size: 16px;
+      }
+      .wrapper-btn{
+        @media all and (max-width: 1050px){
+          padding: 10px 0px;
+        }
+        .btn{
+          justify-content: center;
+          width: 160px;
+          height: 40px;
+          -ms-flex-align: center;
+          align-items: center;
+          background-image: -webkit-linear-gradient( 90deg, rgb(0,110,67) 0%, rgb(0,143,62) 100%);
+          text-decoration: none;
+          font-size: 18px;
+          text-transform: uppercase;
+          color: #fff;
+          display: flex;
+          margin-left: 40px;
+          @media all and (max-width: 1050px){
+            margin-left: 0px;
+            padding: 10px 0px;
+          }
+        }
+      }
+    }
+
+
+  }
+
+  .our_work{
+    .slide {
+      padding-bottom: 54px;
+      #prev{
+        border: none;
+        background: url(/inc/img/prev.png) 50% no-repeat;
+        height: 60px;
+        width: 23px;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        margin: auto;
+        cursor: pointer;
+      }
+      #next{
+        border: none;
+        background: url(/inc/img/next.png) 50% no-repeat;
+        height: 60px;
+        width: 23px;
+        position: absolute;
+        top: 0px;
+        bottom: 0;
+        right: 0;
+        cursor: pointer;
+        margin: auto;
+      }
+    }
+
+    .title-content {
+      font-size: 36px;
+      text-transform: uppercase;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: center;
+      padding: 50px 0 40px;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      @media all and (max-width: 1075px){
+        width: 330px!important;
+      }
+    }
+    .carousel {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+
+    .carousel li {
+      float: left;
+      width: 330px;
+      height: 296px;
+      font: 20px Calibry italic;
+      background: #e8e8e8;
+      img{
+        height: 222px;
+        width: 330px;
+      }
+      .text{
+        font-size: 14px;
+        padding: 20px 0px 0px 20px;
+
+      }
+    }
+  }
+
+
+}

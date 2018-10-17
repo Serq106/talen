@@ -1,0 +1,42 @@
+@import "variable.scss";
+
+/* BODY */
+body {
+  position: relative;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  box-sizing: border-box;
+  font-family: 'Cuprum-Regular', sans-serif;
+  font-stretch: condensed;
+  a{
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+.container-wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  @media all and (max-width: 1139px){
+    width: 100%;
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+
+
